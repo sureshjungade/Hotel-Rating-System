@@ -1,0 +1,57 @@
+package com.keyo.services.impl;
+
+import java.util.List;
+import java.util.UUID;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.keyo.entities.User;
+import com.keyo.exception.ResourceNotFoundException;
+import com.keyo.repositories.UserRepository;
+import com.keyo.services.UserService;
+
+@Service
+public class UserServiceimpl implements UserService{
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Override
+	public User saveUser(User user) {
+		
+		String randomUserId = UUID.randomUUID().toString();
+		user.setUserId(randomUserId);
+		
+		userRepository.save(user);
+
+		return null;
+	}
+
+	@Override
+	public List<User> getAllUser() {
+		// TODO Auto-generated method stub
+		return userRepository.findAll();
+	}
+
+	@Override
+	public User getUser(String userId) {
+
+		return userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("Resorce not found with this userId : " + userId));
+	}
+
+	@Override
+	public String deleteUser(String userId) {
+		
+		userRepository.deleteById(userId);
+		
+		return "";
+	}
+
+	@Override
+	public User updateUser(String userId) {
+			
+		return null;
+	}
+
+}

@@ -435,3 +435,42 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-02-02 12:32:39,152 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-02-02 12:32:39,157 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
 2023-02-02 12:32:39,160 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/ServiceRegistery/src/test/resources
+2023-02-02 12:47:53,389 [Worker-82: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:UserService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/UserService/pom.xml.
+2023-02-02 12:47:53,521 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:47:53,521 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:47:53,522 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 12:47:54,890 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 12:47:54,891 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:47:54,892 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 12:48:12,601 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:UserService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/UserService/pom.xml.
+2023-02-02 12:48:12,703 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:48:12,703 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:48:12,704 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 12:53:42,870 [Worker-88: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:UserService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/UserService/pom.xml.
+2023-02-02 12:53:42,965 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:53:42,965 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:53:42,965 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 12:53:44,358 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 12:53:44,359 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:53:44,359 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 12:53:58,761 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 12:53:58,763 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 12:53:58,764 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 13:19:05,729 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 13:19:05,733 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 13:19:05,735 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 13:20:11,674 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 13:20:11,680 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 13:20:11,683 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 13:22:18,787 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 13:22:18,793 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 13:22:18,795 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 13:26:01,689 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 13:26:01,692 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 13:26:01,694 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 13:32:06,699 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 13:32:06,702 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 13:32:06,703 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-02 14:40:49,054 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-02 14:40:49,075 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-02 14:40:49,076 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources

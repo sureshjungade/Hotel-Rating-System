@@ -1,15 +1,19 @@
 package com.keyo.services.impl;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import com.keyo.entities.Hotel;
 import com.keyo.entities.Rating;
 import com.keyo.entities.User;
 import com.keyo.exception.ResourceNotFoundException;
@@ -52,11 +56,27 @@ public class UserServiceimpl implements UserService{
 		 
 		 //fetch rating of the above user from RATING SERVICE
 		 
-		 ArrayList<Rating> ratings = restTemplate.getForObject("http://localhost:8083/ratings/users/"+user.getUserId(), ArrayList.class);
+		 Rating[] ratingsOfUser = restTemplate.getForObject("http://localhost:8083/ratings/users/"+user.getUserId(), Rating[].class);
+		 
+		 List<Rating> ratings = Arrays.stream(ratingsOfUser).toList();
 		 
 		// logger.info("{}",forObjectArrayList);
-		 System.out.println(ratings.toString());
-		 user.setRatings(ratings);
+		 System.out.println(ratingsOfUser.toString());
+		 
+		 List<Rating> ratingList = ratings.stream().map(rating -> {
+			 
+			 //api call to hotel service to get the hotel
+			 
+			 ResponseEntity<Hotel> HotelEntity = restTemplate.getForEntity("http://localhost:8082/hotels/getHotel/"+rating.getHotelId(), Hotel.class);
+			 
+			  Hotel hotel = HotelEntity.getBody();
+			 //set the hotel to rating
+			 //return rating
+			  rating.setHotel(hotel);
+			 return rating;
+		 }).collect(Collectors.toList());
+		 
+		 user.setRatings(ratingList);
 		 return user;
 	
 	}

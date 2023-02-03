@@ -17,6 +17,7 @@ import com.keyo.entities.Hotel;
 import com.keyo.entities.Rating;
 import com.keyo.entities.User;
 import com.keyo.exception.ResourceNotFoundException;
+import com.keyo.externalservices.IHotelService;
 import com.keyo.repositories.UserRepository;
 import com.keyo.services.UserService;
 
@@ -28,6 +29,9 @@ public class UserServiceimpl implements UserService{
 	
 	@Autowired
 	private RestTemplate restTemplate;
+	
+	@Autowired
+	private IHotelService hotelService;
 	
 //	@Autowired(required = true)
 //	private Logger logger = LoggerFactory.getLogger(UserServiceimpl.class);
@@ -67,9 +71,9 @@ public class UserServiceimpl implements UserService{
 			 
 			 //api call to hotel service to get the hotel
 			 
-			 ResponseEntity<Hotel> HotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/getHotel/"+rating.getHotelId(), Hotel.class);
+			 //ResponseEntity<Hotel> HotelEntity = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/getHotel/"+rating.getHotelId(), Hotel.class);
 			 
-			  Hotel hotel = HotelEntity.getBody();
+			  Hotel hotel = hotelService.getHotel(rating.getHotelId()); // HotelEntity.getBody();
 			 //set the hotel to rating
 			 //return rating
 			  rating.setHotel(hotel);

@@ -3893,3 +3893,33 @@ org.eclipse.jface.text.BadLocationException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:23.714
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:23.716
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:23.717
+!MESSAGE buffering callback sts4.classpath.DTCWrgJb ConfigServer false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:23.717
+!MESSAGE executing callback sts4.classpath.DTCWrgJb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:23.799
+!MESSAGE executing callback sts4.classpath.DTCWrgJb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:45.533
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:45.534
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:45.534
+!MESSAGE buffering callback sts4.classpath.DTCWrgJb ConfigServer false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:45.534
+!MESSAGE executing callback sts4.classpath.DTCWrgJb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-02-06 10:56:45.538
+!MESSAGE executing callback sts4.classpath.DTCWrgJb SUCCESS [done]

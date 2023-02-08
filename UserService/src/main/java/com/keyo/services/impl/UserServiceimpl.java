@@ -55,11 +55,11 @@ public class UserServiceimpl implements UserService{
 
 	@Override
 	public User getUser(String userId) {
-
+		
 		 User user = userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("Resorce not found with this userId : " + userId));
 		 
 		 //fetch rating of the above user from RATING SERVICE
-		 
+		 System.out.println("getUser");
 		 Rating[] ratingsOfUser = restTemplate.getForObject("http://RATING-SERVICE/ratings/users/"+user.getUserId(), Rating[].class);
 		 
 		 List<Rating> ratings = Arrays.stream(ratingsOfUser).toList();

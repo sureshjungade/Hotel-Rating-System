@@ -2346,3 +2346,249 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.okta.spri
 2023-02-07 12:36:45,894 [Worker-1385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-02-07 12:36:45,894 [Worker-1385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-02-07 12:36:45,894 [Worker-1385: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/yosa/Desktop/ABC/ApiGateway/src/test/resources
+2023-02-07 14:46:41,663 [Worker-1416: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:UserService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/UserService/pom.xml.
+2023-02-07 14:46:43,518 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.pom
+2023-02-07 14:46:44,021 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.pom
+2023-02-07 14:46:44,221 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.pom
+2023-02-07 14:46:44,286 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.pom
+2023-02-07 14:46:44,543 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.pom
+2023-02-07 14:46:44,627 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.pom
+2023-02-07 14:46:44,843 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.pom
+2023-02-07 14:46:45,093 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.pom
+2023-02-07 14:46:45,099 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.pom
+2023-02-07 14:46:45,380 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.pom
+2023-02-07 14:46:45,511 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.pom
+2023-02-07 14:46:45,632 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.pom
+2023-02-07 14:46:45,941 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.pom
+2023-02-07 14:46:45,970 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.pom
+2023-02-07 14:46:46,196 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.pom
+2023-02-07 14:46:46,385 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.pom
+2023-02-07 14:46:46,466 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.pom
+2023-02-07 14:46:46,720 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.pom
+2023-02-07 14:46:46,804 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.pom
+2023-02-07 14:46:46,993 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.pom
+2023-02-07 14:46:47,226 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.pom
+2023-02-07 14:46:47,275 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.pom
+2023-02-07 14:46:47,550 [Worker-1416: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.pom
+2023-02-07 14:46:47,670 [Worker-1411: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.pom
+2023-02-07 14:46:47,823 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.jar
+2023-02-07 14:46:47,823 [AetherRepositoryConnector-repo.maven.apache.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1.jar
+2023-02-07 14:46:47,887 [AetherRepositoryConnector-repo.maven.apache.org-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.jar
+2023-02-07 14:46:47,887 [AetherRepositoryConnector-repo.maven.apache.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar
+2023-02-07 14:46:47,887 [AetherRepositoryConnector-repo.maven.apache.org-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.jar
+2023-02-07 14:46:48,108 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar
+2023-02-07 14:46:48,134 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.jar
+2023-02-07 14:46:48,163 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.jar
+2023-02-07 14:46:48,245 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.jar
+2023-02-07 14:46:48,245 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1.jar
+2023-02-07 14:46:48,245 [AetherRepositoryConnector-repo.maven.apache.org-7-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.jar
+2023-02-07 14:46:48,656 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.jar
+2023-02-07 14:46:48,658 [AetherRepositoryConnector-repo.maven.apache.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar
+2023-02-07 14:46:48,694 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7.jar
+2023-02-07 14:46:48,937 [AetherRepositoryConnector-repo.maven.apache.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1.jar
+2023-02-07 14:46:48,947 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2.jar
+2023-02-07 14:46:49,076 [AetherRepositoryConnector-repo.maven.apache.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.jar
+2023-02-07 14:46:49,238 [AetherRepositoryConnector-repo.maven.apache.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.jar
+2023-02-07 14:46:49,241 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.jar
+2023-02-07 14:46:49,245 [AetherRepositoryConnector-repo.maven.apache.org-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.jar
+2023-02-07 14:46:49,412 [AetherRepositoryConnector-repo.maven.apache.org-6-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.jar
+2023-02-07 14:46:49,506 [AetherRepositoryConnector-repo.maven.apache.org-6-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.jar
+2023-02-07 14:46:49,532 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.jar
+2023-02-07 14:46:49,550 [AetherRepositoryConnector-repo.maven.apache.org-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.jar
+2023-02-07 14:46:49,784 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.jar
+2023-02-07 14:46:49,784 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.jar
+2023-02-07 14:46:49,818 [AetherRepositoryConnector-repo.maven.apache.org-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.jar
+2023-02-07 14:46:50,081 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 14:46:50,081 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 14:46:50,083 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 14:46:51,187 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1.jar
+2023-02-07 14:46:51,588 [Worker-1415: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 14:46:51,601 [Worker-1415: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 14:46:51,602 [Worker-1415: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 14:46:52,072 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2-sources.jar
+2023-02-07 14:46:52,440 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.jar
+2023-02-07 14:46:52,453 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.0.2/spring-boot-starter-oauth2-client-3.0.2-sources.jar
+2023-02-07 14:46:52,461 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:3.0.2
+2023-02-07 14:46:53,179 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2.jar
+2023-02-07 14:46:53,187 [AetherRepositoryConnector-repo.maven.apache.org-7-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1.jar
+2023-02-07 14:46:53,426 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1-sources.jar
+2023-02-07 14:46:56,364 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.jar
+2023-02-07 14:46:59,771 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1-sources.jar
+2023-02-07 14:46:59,790 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-client:6.0.1
+2023-02-07 14:47:00,529 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1-sources.jar
+2023-02-07 14:47:01,130 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-core/6.0.1/spring-security-oauth2-core-6.0.1-sources.jar
+2023-02-07 14:47:01,145 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-core:6.0.1
+2023-02-07 14:47:02,500 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1-sources.jar
+2023-02-07 14:47:02,554 [AetherRepositoryConnector-repo.maven.apache.org-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.0.1/spring-security-oauth2-client-6.0.1.jar
+2023-02-07 14:47:05,053 [AetherRepositoryConnector-repo.maven.apache.org-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1.jar
+2023-02-07 14:47:05,335 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1-sources.jar
+2023-02-07 14:47:05,366 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:oauth2-oidc-sdk:9.43.1
+2023-02-07 14:47:06,161 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7-sources.jar
+2023-02-07 14:47:06,420 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7-sources.jar
+2023-02-07 14:47:06,431 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:lang-tag:1.7
+2023-02-07 14:47:07,183 [AetherRepositoryConnector-repo.maven.apache.org-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4.jar
+2023-02-07 14:47:07,583 [AetherRepositoryConnector-repo.maven.apache.org-7-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.1/oauth2-oidc-sdk-9.43.1.jar
+2023-02-07 14:47:08,839 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1-sources.jar
+2023-02-07 14:47:09,794 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-jose/6.0.1/spring-security-oauth2-jose-6.0.1-sources.jar
+2023-02-07 14:47:09,806 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-jose:6.0.1
+2023-02-07 14:47:10,519 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4-sources.jar
+2023-02-07 14:47:11,564 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.24.4/nimbus-jose-jwt-9.24.4-sources.jar
+2023-02-07 14:47:11,599 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:9.24.4
+2023-02-07 14:47:12,450 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2-sources.jar
+2023-02-07 14:47:12,701 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/3.0.2/spring-boot-starter-security-3.0.2-sources.jar
+2023-02-07 14:47:12,715 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:3.0.2
+2023-02-07 14:47:13,424 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1-sources.jar
+2023-02-07 14:47:14,039 [Worker-1417: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-resource-server/6.0.1/spring-security-oauth2-resource-server-6.0.1-sources.jar
+2023-02-07 14:47:14,046 [Worker-1417: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-resource-server:6.0.1
+2023-02-07 14:47:14,609 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 14:47:14,609 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 14:47:14,610 [Worker-1416: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:05:57,641 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:05:57,646 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:05:57,648 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:08:58,882 [Worker-1422: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:08:58,895 [Worker-1422: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:08:58,896 [Worker-1422: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:09:36,843 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:09:36,846 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:09:36,847 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:13:15,226 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:13:15,228 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:13:15,229 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:13:26,376 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:13:26,392 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:13:26,394 [Worker-1423: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:14:33,814 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:14:33,827 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:14:33,830 [Worker-1420: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:18:57,082 [Worker-1425: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:18:57,104 [Worker-1425: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:18:57,105 [Worker-1425: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:23:58,391 [Worker-1424: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:23:58,395 [Worker-1424: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:23:58,396 [Worker-1424: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:24:20,916 [Worker-1430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:24:20,929 [Worker-1430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:24:20,930 [Worker-1430: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:36:21,743 [Worker-1432: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:36:21,745 [Worker-1432: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:36:21,746 [Worker-1432: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:50:19,355 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:50:19,361 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:50:19,361 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:52:28,461 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:52:28,463 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:52:28,464 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 15:58:09,386 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 15:58:09,388 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 15:58:09,389 [Worker-1438: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:03:28,916 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:03:28,922 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:03:28,922 [Worker-1441: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:03:44,246 [Worker-1446: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:03:44,248 [Worker-1446: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:03:44,249 [Worker-1446: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:06:28,947 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:06:28,949 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:06:28,950 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:06:59,159 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:06:59,162 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:06:59,162 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:07:05,341 [Worker-1444: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:07:05,344 [Worker-1444: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:07:05,344 [Worker-1444: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:11:34,646 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:11:34,653 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:11:34,654 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 16:33:42,287 [Worker-1454: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:RatingService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/RatingService/pom.xml.
+2023-02-07 16:33:42,897 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:33:42,897 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:33:42,897 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:33:44,250 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:33:44,250 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:33:44,251 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:36:23,518 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:36:23,532 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:36:23,533 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:37:08,860 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:37:08,871 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:37:08,872 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:40:13,678 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:40:13,694 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:40:13,696 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:40:54,779 [Worker-1455: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.keyo:HotelService:0.0.1-SNAPSHOT @ /home/yosa/Desktop/ABC/HotelService/pom.xml.
+2023-02-07 16:40:54,929 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:40:54,929 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:40:54,930 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:40:55,418 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:40:55,419 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:40:55,420 [Worker-1445: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:41:18,042 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:41:18,059 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:41:18,060 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:42:12,523 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:42:12,526 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:42:12,527 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:42:32,195 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:42:32,198 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:42:32,198 [Worker-1454: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:42:53,767 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:42:53,770 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:42:53,770 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:43:16,876 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:43:16,879 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:43:16,879 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:43:36,359 [Worker-1456: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:43:36,369 [Worker-1456: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:43:36,369 [Worker-1456: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:48:39,127 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:48:39,129 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:48:39,130 [Worker-1455: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:50:53,818 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:50:53,839 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:50:53,839 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 16:52:12,265 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:52:12,282 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:52:12,283 [Worker-1458: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:52:17,074 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:52:17,076 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:52:17,077 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/RatingService/src/test/resources
+2023-02-07 16:54:04,300 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 16:54:04,305 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 16:54:04,306 [Worker-1453: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 17:15:39,737 [Worker-1468: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 17:15:39,959 [Worker-1468: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 17:15:39,960 [Worker-1468: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:02:24,766 [Worker-1466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:02:25,137 [Worker-1466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:02:25,140 [Worker-1466: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:03:06,169 [Worker-1480: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:03:06,655 [Worker-1480: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:03:06,656 [Worker-1480: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:03:34,573 [Worker-1479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:03:34,592 [Worker-1479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:03:34,593 [Worker-1479: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:32:28,962 [Worker-1487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:32:29,221 [Worker-1487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:32:29,222 [Worker-1487: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:32:43,740 [Worker-1489: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:32:44,084 [Worker-1489: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:32:44,085 [Worker-1489: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 18:59:25,937 [Worker-1494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:59:26,317 [Worker-1494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:59:26,318 [Worker-1494: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 18:59:49,193 [Worker-1492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 18:59:49,498 [Worker-1492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 18:59:49,501 [Worker-1492: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/HotelService/src/test/resources
+2023-02-07 19:16:34,587 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 19:16:34,810 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 19:16:34,852 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 19:17:00,532 [Worker-1503: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 19:17:00,811 [Worker-1503: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 19:17:00,813 [Worker-1503: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 19:18:03,416 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 19:18:03,419 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 19:18:03,420 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources
+2023-02-07 19:18:35,068 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-02-07 19:18:35,081 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-02-07 19:18:35,082 [Worker-1502: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/yosa/Desktop/ABC/UserService/src/test/resources

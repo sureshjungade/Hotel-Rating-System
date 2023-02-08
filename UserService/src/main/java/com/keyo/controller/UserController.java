@@ -6,6 +6,7 @@ import org.apache.hc.client5.http.UserTokenHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,6 +32,7 @@ public class UserController {
 	
 	Integer retrycountInteger = 1;
 	
+	@PreAuthorize("hasAuthority('SCOPE_internal') || hasAuthority('Admin')")
 	@PostMapping("/createUser")
 	public ResponseEntity<User> createUser(@RequestBody User user){
 		
@@ -44,7 +46,7 @@ public class UserController {
 	//@Retry(name = "ratingHotelBreaker",fallbackMethod = "ratingHotelFallback")
 	@RateLimiter(name = "ratingHotelBreaker",fallbackMethod = "ratingHotelFallback")
 	public ResponseEntity<User> getSingleUser(@PathVariable String userId){
-		System.out.println("getSingleUser method"+retrycountInteger);
+		//System.out.println("getSingleUser method"+retrycountInteger);
 		retrycountInteger++;
 		User getUser = userService.getUser(userId);
 		
@@ -56,7 +58,8 @@ public class UserController {
 	//creating fallback method for circuitbreaker
 	public ResponseEntity<User> ratingHotelFallback(String userId, Exception ex){
 			System.out.println("fallback method");
-			
+			ex.printStackTrace();
+			//System.out.println(ex);
 		User user = User.builder().email("@gmail.com").name("dummy").about("down")
 					.userId("12").build();
 		

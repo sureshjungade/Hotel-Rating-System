@@ -66,6 +66,14 @@ public class UserController {
 		return new ResponseEntity<User>(user, HttpStatus.OK);
 	}
 	
+	@GetMapping("/getsimplecontroller/{userId}")
+	public ResponseEntity<User> getUserSimpleController(@PathVariable String userId){
+		
+		User getUser = userService.getUserSimplemethod(userId);
+		
+		return new ResponseEntity<User>(getUser, HttpStatus.OK);
+	}
+	
 	@GetMapping("")
 	public ResponseEntity<List<User>> getAllUser(){
 		

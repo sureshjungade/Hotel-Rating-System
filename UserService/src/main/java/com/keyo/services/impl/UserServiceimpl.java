@@ -65,7 +65,7 @@ public class UserServiceimpl implements UserService{
 		 List<Rating> ratings = Arrays.stream(ratingsOfUser).toList();
 		 
 		// logger.info("{}",forObjectArrayList);
-		 System.out.println(ratingsOfUser.toString());
+		 System.out.println("ratingOfuer " + ratingsOfUser.toString());
 		 
 		 List<Rating> ratingList = ratings.stream().map(rating -> {
 			 
@@ -94,9 +94,9 @@ public class UserServiceimpl implements UserService{
 	}
 
 	@Override
-	public User updateUser(String userId) {
+	public User getUserSimplemethod(String userId) {
 			
-		return null;
+		return 	userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("Resorce not found with this userId : " + userId));
 	}
 
 }

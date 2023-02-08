@@ -16,7 +16,7 @@ public class RestTemplateInterceptor implements ClientHttpRequestInterceptor{
 	
 	
 	public RestTemplateInterceptor(OAuth2AuthorizedClientManager manager) {
-		super();
+		
 		this.manager = manager;
 	}
 
@@ -31,8 +31,8 @@ public class RestTemplateInterceptor implements ClientHttpRequestInterceptor{
 		
 		System.out.println("RestTemplate Interceptor"+ token);
 		
-		request.getHeaders().add("Authorization", "Bearer"+token);
-		
+		request.getHeaders().add("Authorization", "Bearer "+token);
+		System.out.println("body is here : "+body);
 		return execution.execute(request, body);
 	}
 

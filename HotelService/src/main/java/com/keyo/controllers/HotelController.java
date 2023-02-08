@@ -30,14 +30,21 @@ public class HotelController {
 			return new ResponseEntity<Hotel>(hotelService.create(hotel), HttpStatus.CREATED);
 		}
 		
-		@PreAuthorize("hasAuthority('SCOPE_internal')")
+		//@PreAuthorize("hasAuthority('SCOPE_internal')")
 		@GetMapping("/getHotel/{hotelId}")
 		public ResponseEntity<Hotel> getHotel(@PathVariable String hotelId){
 			
 			return new ResponseEntity<Hotel>(hotelService.get(hotelId), HttpStatus.OK);
 		}
 		
-		@PreAuthorize("hasAuthority('SCOPE_internal') || hasAuthority('Admin')")
+		//@PreAuthorize("hasAuthority('SCOPE_internal')")
+		@GetMapping("/getCombinedHotelData/{hotelId}")
+		public ResponseEntity<Hotel> getCombinedHotelDataController(@PathVariable String hotelId){
+			
+			return new ResponseEntity<Hotel>(hotelService.getCombinedData(hotelId), HttpStatus.OK);
+		}
+		
+		//@PreAuthorize("hasAuthority('SCOPE_internal') || hasAuthority('Admin')")
 		@GetMapping("/getAllHotels")
 		public ResponseEntity<List<Hotel>> getAllHotel(){
 			

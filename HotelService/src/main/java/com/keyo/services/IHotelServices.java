@@ -11,7 +11,8 @@ public interface IHotelServices {
 	
 	List<Hotel> getAll();
 	
-	Hotel get(String id);
+	Hotel get(String hotelId);
 	
+	Hotel getCombinedData(String hotelId);
 
 }

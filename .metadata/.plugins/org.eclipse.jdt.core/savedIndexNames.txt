@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.core
 2734344246.index
 2765396178.index
-3577795167.index
 3011297402.index
 1084734579.index
 2025481205.index
@@ -11,8 +10,6 @@ INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.co
 2818130030.index
 1398342771.index
 333959340.index
-1275384292.index
-2219244213.index
 2790802680.index
 3104036082.index
 3279693387.index
@@ -125,7 +122,6 @@ INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.co
 2193381081.index
 748205427.index
 637808748.index
-1540430309.index
 682463584.index
 2023021695.index
 3999930219.index
@@ -159,7 +155,6 @@ INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.co
 1459640371.index
 1142875577.index
 604021042.index
-3645001890.index
 3473792892.index
 3582626614.index
 242794375.index
@@ -190,7 +185,6 @@ INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.co
 1681390808.index
 1540686554.index
 197775046.index
-4087475988.index
 3422332908.index
 939880193.index
 1892202283.index

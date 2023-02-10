@@ -10,8 +10,11 @@ public interface IRatingService {
 	
 	List<Rating> getRatings();
 	
-	
 	List<Rating> getRatingByUserId(String userId);
 	
 	List<Rating> getRatingByHotelId(String hotelId);
+
+	Rating updateRating(Rating rating);
+
+	String deleteRating(String ratingId);
 }

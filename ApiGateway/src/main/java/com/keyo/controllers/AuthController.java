@@ -37,6 +37,7 @@ public class AuthController {
 		authResponse.setExpireAt(client.getAccessToken().getExpiresAt().getEpochSecond());
 		
 		List<String> authorities = user.getAuthorities().stream().map(grantedauthorities -> {
+			
 			return grantedauthorities.getAuthority();
 		}).collect(Collectors.toList());
 		

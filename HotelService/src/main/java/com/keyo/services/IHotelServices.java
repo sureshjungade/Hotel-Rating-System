@@ -8,11 +8,14 @@ public interface IHotelServices {
 	
 	Hotel create(Hotel hotel);
 	
-	
 	List<Hotel> getAll();
 	
 	Hotel get(String hotelId);
 	
 	Hotel getCombinedData(String hotelId);
+
+	Hotel updateHotel(Hotel hotel);
+
+	String deleteHotel(String hotelId);
 
 }

@@ -1,6 +1,5 @@
 package com.keyo.services.impl;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
@@ -9,7 +8,6 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -33,8 +31,7 @@ public class UserServiceimpl implements UserService{
 	@Autowired
 	private IHotelService hotelService;
 	
-//	@Autowired(required = true)
-//	private Logger logger = LoggerFactory.getLogger(UserServiceimpl.class);
+	private Logger logger = LoggerFactory.getLogger(UserServiceimpl.class);
 	
 	@Override
 	public User saveUser(User user) {
@@ -42,13 +39,14 @@ public class UserServiceimpl implements UserService{
 		String randomUserId = UUID.randomUUID().toString();
 		user.setUserId(randomUserId);
 		
-		
-
 		return userRepository.save(user);
 	}
 
 	@Override
 	public List<User> getAllUser() {
+		//System.out.println("This will see");
+		
+		logger.info("This will see");
 
 		return userRepository.findAll();
 	}
@@ -56,6 +54,7 @@ public class UserServiceimpl implements UserService{
 	@Override
 	public User getUser(String userId) {
 		
+				
 		 User user = userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("Resorce not found with this userId : " + userId));
 		 
 		 //fetch rating of the above user from RATING SERVICE
@@ -90,13 +89,19 @@ public class UserServiceimpl implements UserService{
 		
 		userRepository.deleteById(userId);
 		
-		return "";
+		return "user is deleted of userId" + userId;
 	}
 
 	@Override
 	public User getUserSimplemethod(String userId) {
 			
 		return 	userRepository.findById(userId).orElseThrow(() -> new ResourceNotFoundException("Resorce not found with this userId : " + userId));
+	}
+
+	@Override
+	public User updateUser(User user) {
+		
+		return userRepository.save(user);
 	}
 
 }

@@ -77,7 +77,6 @@ INDEX VERSION 1.131+/home/yosa/Desktop/ABC/.metadata/.plugins/org.eclipse.jdt.co
 1574707360.index
 2638532989.index
 628896873.index
-1311433517.index
 434058192.index
 2892437804.index
 3009893247.index

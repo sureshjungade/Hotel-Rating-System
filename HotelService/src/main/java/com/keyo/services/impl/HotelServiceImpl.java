@@ -66,6 +66,19 @@ public class HotelServiceImpl implements IHotelServices{
 		
 		return hotel;
 	}
+
+	@Override
+	public Hotel updateHotel(Hotel hotel) {
+		
+		return hotelRepo.save(hotel);
+	}
+
+	@Override
+	public String deleteHotel(String hotelId) {
+		
+		hotelRepo.deleteById(hotelId);
+		return "Hotel is deleted of hotelId : " + hotelId;
+	}
 	
 	
 

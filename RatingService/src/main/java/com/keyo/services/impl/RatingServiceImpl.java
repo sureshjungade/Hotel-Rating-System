@@ -3,6 +3,8 @@ package com.keyo.services.impl;
 import java.util.List;
 import java.util.UUID;
 
+import org.bouncycastle.crypto.engines.ISAACEngine;
+import org.hibernate.ObjectDeletedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +42,20 @@ public class RatingServiceImpl implements IRatingService{
 	@Override
 	public List<Rating> getRatingByHotelId(String hotelId) {
 		return ratingRepo.findByHotelId(hotelId);
+	}
+
+	@Override
+	public Rating updateRating(Rating rating) {
+		
+		return ratingRepo.save(rating);
+	}
+
+	@Override
+	public String deleteRating(String ratingId) {
+		
+		ratingRepo.deleteById(ratingId);
+		
+		return "rating is deleted of id : " + ratingId;
 	}
 
 }
